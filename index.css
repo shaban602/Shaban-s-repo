@@ -1,0 +1,164 @@
+ /* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color:yellow;
+    width: 100%;
+    position: fixed;
+    padding: 12px;
+    top: 0%;
+    z-index: 1000;
+}
+.navbar a {
+    color:blue;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 20px;
+    top: 0%;
+}
+.nav-links{
+    border: 2px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border: none;
+}
+
+
+
+.hero{
+    background:linear-gradient(135deg,#0066cc,#004999);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+    margin-top: 100px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+
+}
+
+.hero span{
+    color:#ffdd00;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#4CAF50;
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:30px;
+    transition:.4s;
+}
+
+.btn:hover{
+    background:white;
+    color:blue;
+}
+
+
+.about{
+    padding:70px 20px;
+    text-align:center;
+}
+
+.about h2{
+    color:#0066cc;
+    margin-bottom:20px;
+    font-size:2.5rem;
+}
+
+.about p{
+    max-width:800px;
+    margin:15px auto;
+    font-size:18px;
+}
+
+
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+.container{
+        flex-direction:column;
+    }
+  
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 40px auto;
+    width: 100%;
+}
+
+
+.media iframe{
+    width: min(700px, 90%);
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background: #000;
+}
+
+
+.profileimg{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #fff;
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.18),
+        0 0 0 4px #4CAF50;
+    transition: transform .3s ease, box-shadow .3s ease;
+    cursor: pointer;
+}
+
+
+.profileimg:hover{
+    transform: scale(1.05);
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.25),
+        0 0 0 5px #2196F3;
+        z-index: 1;
+}
+
+
+@media (max-width: 768px){
+
+    .media iframe{
+        width: 95%;
+    }
+
+    .profileimg{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+
+  
+
+  
