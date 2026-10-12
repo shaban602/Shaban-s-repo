@@ -141,3 +141,13 @@ footer {
   margin-top: 50px;
 }
 
+@media (max-width: 600px) {
+    main {
+        padding: 0 10px;
+    }
+
+    section {
+        padding: 15px;
+        overflow-x: auto;
+    }
+}

@@ -146,18 +146,18 @@ footer{
 }
 
 
-@media (max-width: 768px){
 
-    .media iframe{
-        width: 95%;
+
+@media (max-width: 600px) {
+    main {
+        padding: 0 10px;
     }
 
-    .profileimg{
-        width: 180px;
-        height: 180px;
+    section {
+        padding: 15px;
+        overflow-x: auto;
     }
 }
-
 
   
 

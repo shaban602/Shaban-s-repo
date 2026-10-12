@@ -126,3 +126,14 @@ body {
   .about-content h2 {
     font-size: 3rem;
   }
+  
+@media (max-width: 600px) {
+    main {
+        padding: 0 10px;
+    }
+
+    section {
+        padding: 15px;
+        overflow-x: auto;
+    }
+}
